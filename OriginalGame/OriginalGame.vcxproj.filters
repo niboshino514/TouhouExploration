@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{c18ec56a-eeb3-46ee-b677-5e3e79af766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{7df71357-5373-432b-96ac-735d4804b6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\setting">
+      <UniqueIdentifier>{0d2f62e7-494c-4062-8cbd-821aabee3018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\setting">
+      <UniqueIdentifier>{26cec8b7-f465-41f4-bbde-ec35228952f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\screenMain">
+      <UniqueIdentifier>{ae7df7c4-243e-4afd-a16a-cb7b67a76347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\screenMain\Object">
+      <UniqueIdentifier>{cfa39810-fc59-413b-bd9a-4baa67821394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\screenMain\Object\MapChip">
+      <UniqueIdentifier>{39eb1bcd-45f6-4847-b9f7-2151e354f04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\library">
+      <UniqueIdentifier>{4a903e87-1e5b-4bda-83af-941babdebc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\library">
+      <UniqueIdentifier>{221649dc-6faa-4341-a1b1-4733a9c501ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\titleScreen">
+      <UniqueIdentifier>{0992370c-103a-44a9-9e8d-c5578f5eaa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mainScreen">
+      <UniqueIdentifier>{5e8b86e2-7b13-4375-a5b6-34535944ebad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mainScreen\Object">
+      <UniqueIdentifier>{183c868f-89f9-476e-8c12-f0142f803762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mainScreen\Object\MapChip">
+      <UniqueIdentifier>{b7671bb5-62b8-4ba7-97c8-15f95760793c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\titleScreen">
+      <UniqueIdentifier>{76a5d1e8-77ba-408d-9fef-f6aadc44fe72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\message">
+      <UniqueIdentifier>{95454364-be5b-4db2-bc6d-1c943dff2bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\message">
+      <UniqueIdentifier>{52dc67bb-990b-498f-a1d5-b143f9a4e9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\endingScreen">
+      <UniqueIdentifier>{1fcc2d34-2f64-4079-9d63-bc79f2631dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\endingScreen">
+      <UniqueIdentifier>{59083dea-282c-4842-9e78-087db9d29727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\endingScreen\Effect">
+      <UniqueIdentifier>{6c0d1426-e0e4-4011-91e8-6af01065bd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\endingScreen\Effect">
+      <UniqueIdentifier>{1d07ddd5-8fe8-4252-a3a5-b852292f0825}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Pad.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\screenMain\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>ソース ファイル\screenMain\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ソース ファイル\screenMain\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatinumLoader.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Calculation.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Convert.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Draw.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\File.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\FPS.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Load.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentBlockChip.cpp">
+      <Filter>ソース ファイル\screenMain\Object\MapChip</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScreen.cpp">
+      <Filter>ソース ファイル\screenMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\screenMain</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>ソース ファイル\titleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\EvoLib.cpp">
+      <Filter>ソース ファイル\library</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>ソース ファイル\screenMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\MessageTextLoader.cpp">
+      <Filter>ソース ファイル\message</Filter>
+    </ClCompile>
+    <ClCompile Include="Message\MessageWindow.cpp">
+      <Filter>ソース ファイル\message</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChipBase.cpp">
+      <Filter>ソース ファイル\screenMain\Object\MapChip</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundOption.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnding.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>ソース ファイル\screenMain</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScreen.cpp">
+      <Filter>ソース ファイル\endingScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerOption.cpp">
+      <Filter>ソース ファイル\screenMain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\endingScreen\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>ソース ファイル\endingScreen\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Pad.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatinumLoader.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\FPS.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Calculation.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Convert.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Draw.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\EvoLib.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\File.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Load.h">
+      <Filter>ヘッダー ファイル\library</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentBlockChip.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object\MapChip</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScreen.h">
+      <Filter>ヘッダー ファイル\mainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\mainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>ヘッダー ファイル\titleScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>ヘッダー ファイル\mainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\MessageTextLoader.h">
+      <Filter>ヘッダー ファイル\message</Filter>
+    </ClInclude>
+    <ClInclude Include="Message\MessageWindow.h">
+      <Filter>ヘッダー ファイル\message</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSpawnFlagChip.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object\MapChip</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChipBase.h">
+      <Filter>ヘッダー ファイル\mainScreen\Object\MapChip</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundOption.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ヘッダー ファイル\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnding.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>ヘッダー ファイル\mainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScreen.h">
+      <Filter>ヘッダー ファイル\endingScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerOption.h">
+      <Filter>ヘッダー ファイル\mainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>ヘッダー ファイル\endingScreen\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\endingScreen\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
